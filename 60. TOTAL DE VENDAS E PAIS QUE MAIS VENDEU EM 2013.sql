@@ -9,7 +9,7 @@ GROUP BY CalendarYear
 
 -- PAIS QUE MAIS VENDEU EM 2013
 SELECT
-SalesTerritoryCountry AS PAÕS,
+SalesTerritoryCountry AS PA√çS,
 FORMAT(SUM(SALESAMOUNT),'C0') AS TOTAL_DE_VENDAS
 FROM FactInternetSales
 INNER JOIN DimDate ON DimDate.DateKey = FactInternetSales.ShipDateKey
