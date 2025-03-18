@@ -10,7 +10,7 @@ SELECT
 	SUM(SalesAmount) AS SOMA
 FROM FactSales
 
---MÉDIA
+--MÃ‰DIA
 SELECT 
 	AVG(SalesAmount) AS MEDIA
 FROM FactSales
@@ -30,12 +30,12 @@ SELECT
 	MIN(SalesAmount) AS MINIMO
 FROM FactSales
 
---MÉDIA V2
+--MÃ‰DIA V2
 SELECT 
 	SUM(SalesAmount)/COUNT(SalesAmount) AS MEDIA_V2
 FROM FactSales
 
---MÉDIA
+--MÃ‰DIA
 SELECT 
 	AVG(SalesAmount) AS MEDIA
 FROM FactSales
